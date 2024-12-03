@@ -13,7 +13,7 @@ An interactive, Dockerized application with the following key components:
 1. **Clone the Repository**:
    - Clone the application repository:
      ```bash
-     git clone 
+     git clone https://github.com/danlopatenco/interactive_chat_bot.git
      cd interactive_chat_bot
      ```
    
