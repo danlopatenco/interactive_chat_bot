@@ -15,7 +15,6 @@ LANGCHAIN_CONFIG = {"configurable": {"thread_id": "some_tread_id"}}
 # Brave Search
 COUNT_OF_BRAVE_SEARCH_RESPONSES = get_int_env_var('COUNT_OF_BRAVE_SEARCH_RESPONSES')
 BRAVE_API_KEY = get_env_var('BRAVE_API_KEY')
-BRAVE_SEARCH_BASE_URL = get_env_var('BRAVE_SEARCH_BASE_URL')
 
 # LangSmith
 LANGCHAIN_TRACING_V2 = get_env_var('LANGCHAIN_TRACING_V2', "false")

@@ -28,5 +28,4 @@ COPY --from=builder ${VIRTUAL_ENV} ${VIRTUAL_ENV}
 
 COPY ./ ./
 
-# Disable file watching
 CMD ["streamlit", "run", "./main.py", "--server.port", "8080", "--browser.gatherUsageStats", "false", "--server.fileWatcherType", "none"]
